@@ -129,3 +129,8 @@ jhipster:
 # ===================================================================
 
 # application:
+elasticsearch:
+    server.port: 9300
+    cluster.name: zdp
+    home:
+    host: 192.168.2.167

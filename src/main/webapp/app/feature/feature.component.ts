@@ -16,7 +16,7 @@ export class FeatureComponent implements OnInit {
     public transformation?: string
   ) {
     this.ingestion = ingestion ? ingestion : null,
-    this.globalSearch = globalSearch ? globalsearch : null,
+    this.globalSearch = globalSearch ? globalSearch : null,
     this.catalog = catalog ? catalog : null,
     this.dq = dq ? dq : null,
     this.workflows = workflows ? workflows : null,
