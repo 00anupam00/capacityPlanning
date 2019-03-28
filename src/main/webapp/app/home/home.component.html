@@ -4,12 +4,12 @@
     </div>
     <div class="col-md-9">
         <h1 class="display-4">Welcome, Code Bashers!</h1>
-        <p class="lead">This is your homepage</p>
+        <p class="lead">This is your homepage. Please rank the below mentioned features based on your usage. Greater the number, higher is the rank</p>
 
         <div [ngSwitch]="isAuthenticated()">
             <div class="alert alert-success" *ngSwitchCase="true">
                 <span id="home-logged-message" *ngIf="account"
-                   > You are logged in as user "{{account.login}}". </span>
+                   > Welcome, "{{account.login}}". </span>
             </div>
 
             <div class="alert alert-warning" *ngSwitchCase="false">

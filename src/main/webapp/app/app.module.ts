@@ -20,6 +20,7 @@ import { CapacityPlanningEntityModule } from './entities/entity.module';
 import * as moment from 'moment';
 // jhipster-needle-angular-add-module-import JHipster will add new module here
 import { JhiMainComponent, NavbarComponent, FooterComponent, PageRibbonComponent, ErrorComponent } from './layouts';
+import { FeatureComponent } from './feature/feature.component';
 
 @NgModule({
     imports: [
@@ -38,7 +39,7 @@ import { JhiMainComponent, NavbarComponent, FooterComponent, PageRibbonComponent
         CapacityPlanningEntityModule,
         CapacityPlanningAppRoutingModule
     ],
-    declarations: [JhiMainComponent, NavbarComponent, ErrorComponent, PageRibbonComponent, FooterComponent],
+    declarations: [JhiMainComponent, NavbarComponent, ErrorComponent, PageRibbonComponent, FooterComponent, FeatureComponent],
     providers: [
         {
             provide: HTTP_INTERCEPTORS,
