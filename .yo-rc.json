@@ -1,0 +1,38 @@
+{
+  "generator-jhipster": {
+    "applicationType": "monolith",
+    "gitCompany": "",
+    "baseName": "capacityPlanning",
+    "packageName": "com.zaloni.hack",
+    "packageFolder": "com/zaloni/hack",
+    "serverPort": 8080,
+    "serviceDiscoveryType": false,
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "no",
+    "enableHibernateCache": false,
+    "websocket": "spring-websocket",
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "enableSwaggerCodegen": false,
+    "messageBroker": "kafka",
+    "buildTool": "maven",
+    "useSass": false,
+    "clientPackageManager": "npm",
+    "testFrameworks": [],
+    "enableTranslation": false,
+    "nativeLanguage": "en",
+    "languages": [
+      "en"
+    ],
+    "clientFramework": "angularX",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "5.8.2",
+    "jwtSecretKey": "MmQwMzQxZmIyNzNhMGU5ZDJhNzAzNzY3MjVjMWNhNDQyZTI5MGM3YTA4MzEzZDkxYjE4NWEzYWRhMzc0NjU2OWRiZGJlOTFlMTJhNDFhN2ExOWJmNjhlZjYzN2RkY2VmZmQ1OGJjOWJiYjRlMmQ4NTI4MTk3MjViZWU0NTRjYjA=",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": []
+  }
+}
